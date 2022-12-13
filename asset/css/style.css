@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+  position: relative;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    box-shadow: rgb( 28 32 93 / 24%) 0px 2px 8px 0px;
+   display: block;
+    background-image: linear-gradient(blue,navy);
+
+}
+
+nav.navbar{
+    background-color: #d3d3d3;
+   color: yellow;
+}
+
+
+
+main{
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: rgb(28 32 93 / 54%) 0px 2px 8px 0px;
+}
+
+#home {
+    font-weight: 600;
+    padding: 10em;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/smkn1home.jpg);
+}
+
+#profile{
+
+    padding: 20px;
+}
+
+#identitas{
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 20px;
+    box-shadow: rgb(28 32 93 / 54%) 0px 2px 8px 0px;
+   
+}
+
+
+
+.tprofile td{
+   width: 50%; 
+}
+
+section h2{
+    text-align: center;
+    padding: 25px 0px;
+    color: navy;
+}
+
+h2{
+    text-align: center;
+    padding: 25px 0px;
+    color: navy;
+}
+
+#informasi h2{
+    text-align: center;
+    padding: 25px 0px;
+    color: white;
+}
+
+#informasi img{
+    padding: 10px;
+    width: 250px;
+}
+
+#informasi marquee{
+    color: white;
+    background-color: navy;
+}
+section table td li {
+    list-style: none;
+    color: white;
+}
+
+section table td li a{
+
+    list-style: none;
+    color: white;
+}
+
+
+
+.fcontact{
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+}
+
+.formcard{
+    background-image:linear-gradient(navy,white);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+    box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+   
+}
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    color: #fff;
+    background-image: linear-gradient(blue,navy);
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
